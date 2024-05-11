@@ -3,12 +3,20 @@ https://img.freepik.com/freie-psd/saubere-und-moderne-lebenslauf-oder-lebenslauf
 -->
 
 <script src="https://cdn.tailwindcss.com"></script>
+
 <head>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        @media print {
+            .no-print {
+                display: none;
+            }
+        }
+    </style>
 </head>
 
-<body class="bg-slate-200 h-screen flex justify-center items-center">
+<body class="bg-slate-200 h-screen flex justify-center items-center" style="transform: scale(0.5)">
     <!-- DIN A4   -->
     <main style="min-width: 28.5cm; min-height: 34cm" class="relative bg-white shadow-lg shadow-black/30">
         <!-- Colums -->
@@ -58,7 +66,8 @@ https://img.freepik.com/freie-psd/saubere-und-moderne-lebenslauf-oder-lebenslauf
                             <div class="w-1/4"></div>
                             <div class="w-3/4 pl-4 text-sm"><i class="fas fa-phone-alt"
                                     style="position: absolute; margin-top: 0.5%; left: 2.5%;" width="45px"
-                                    height="20px"></i>+27 83-301-0358</div>
+                                    height="20px"></i><a href="tel:+27833010358" class="text-inherit no-underline">+27
+                                    83-301-0358</a></div>
                         </div>
                         <!-- Email-->
                         <div class="flex flex-row h-6">
@@ -69,7 +78,8 @@ https://img.freepik.com/freie-psd/saubere-und-moderne-lebenslauf-oder-lebenslauf
                             <div class="w-1/4"></div>
                             <div class="w-3/4 pl-4 text-sm"><i class="fas fa-envelope"
                                     style="position: absolute; margin-top: 0.5%; left: 2.5%;" width="45px"
-                                    height="20px"></i>marclevin.sa@gmail.com</div>
+                                    height="20px"></i><a href="mailto:marclevin.sa@gmail.com"
+                                    class="text-inherit no-underline">marclevin.sa@gmail.com</a></div>
                         </div>
                         <!-- website -->
                         <div class="flex flex-row h-6">
@@ -80,7 +90,8 @@ https://img.freepik.com/freie-psd/saubere-und-moderne-lebenslauf-oder-lebenslauf
                             <div class="w-1/4"></div>
                             <div class="w-3/4 pl-4 text-sm"><i class="fab fa-github"
                                     style="position: absolute; margin-top:0.5%; left:2.5%;" width="45px"
-                                    height="20px"></i>marclevin</div>
+                                    height="20px"></i><a href="https://www.github.com/marclevin"
+                                    class="block h-full w-full text-inherit no-underline">marclevin</a></div>
                         </div>
                         <div class="flex flex-row h-6">
                             <div class="w-1/4 bg-blue-400"></div>
@@ -93,7 +104,10 @@ https://img.freepik.com/freie-psd/saubere-und-moderne-lebenslauf-oder-lebenslauf
                                     height="20px"></i>Cape Town</div>
                         </div>
                         <div class="text-xs py-5">
-                            <p class="text-blue-400">This CV was made using Tailwind & Markdown!</p>
+                            <p class="text-blue-400 mb-4">This CV was made using Tailwind & Markdown!</p>
+                            <p class="text-blue-400">You can find a <a class="text-white italic">live</a> version of
+                                this CV at: <a href="https://marclevin.github.io/CV/"
+                                    class="text-white underline">https://marclevin.github.io/CV/</a></p>
                         </div>
 
             </aside>
@@ -142,7 +156,8 @@ https://img.freepik.com/freie-psd/saubere-und-moderne-lebenslauf-oder-lebenslauf
                                     </div>
                                     <div class="w-2/3">
                                         <h1 class="text-md  font-semibold uppercase">Software Developer</h1>
-                                        <h2 class="text-sm font-semibold text-blue-800">Three Address Code / Sandton City </h2>
+                                        <h2 class="text-sm font-semibold text-blue-800">Three Address Code / Sandton
+                                            City </h2>
                                         <p class="text-sm pt-3">
                                             I was hired at Three Address Code to develop software solutions as a
                                             contractor for the company. I was tasked with a client, Nitrogen, a hedge
@@ -160,84 +175,109 @@ https://img.freepik.com/freie-psd/saubere-und-moderne-lebenslauf-oder-lebenslauf
                         </div>
 
                         <!-- About me -->
-                            <h1 class="text-xl uppercase border-b-4 border-gray-400">Professional Skills</h1>
-                            
-                            <div class="flex">
-                                <table class="table-auto text-sm w-2/4 h-full border-2 border-blue-800">
-                                    <thead>
-                                        <tr >
-                                            <th class="border border-blue-800 px-4 pl-5 py-1 w-2/4">Languages</th>
-                                            <th class=" border border-blue-800 px-4 pl-5  py-1">Proficiency</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody class="border-1 border-blue-800">
-                                        <tr>
-                                            <td class="border-e border-blue-800 px-4 py-1 ">Java</td>
-                                            <td class="px-4 py-1 text-yellow-600">Advanced</td>
-                                        </tr>
-                                        <tr>
-                                            <td class=" border-e border-blue-800 px-4 py-1">Python</td>
-                                            <td class="px-4 py-1 text-blue-800">Proficient</td>
-                                        </tr>
-                                        <tr>
-                                            <td class=" border-e border-blue-800 px-4 py-1">JavaScript</td>
-                                            <td class="px-4 py-1 text-gray-500">Intermediate</td>
-                                        </tr>
-                                        <tr>
-                                            <td class=" border-e border-blue-800 px-4 py-1"> Bash / Batch</td>
-                                            <td class="px-4 py-1 text-blue-800">Proficient</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="border-e border-blue-800 px-4 py-1">HTML / CSS</td>
-                                            <td class="px-4 py-1 text-yellow-600">Advanced</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="border-e border-blue-800 px-4 py-1">SQL</td>
-                                            <td class="px-4 py-1 text-gray-500">Intermediate</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <table class="table-auto text-sm w-2/4 ml-3 h-full border-2 border-blue-800">
-                                    <thead>
-                                        <tr>
-                                            <th class=" border border-blue-800 pl-2 py-1 w-2/4">Tools</th>
-                                            <th class="border border-blue-800 px-2 py-1">Proficiency</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td class="border-e border-blue-800 px-4 py-1 ">Maven</td>
-                                            <td class="px-4 py-1 text-gray-500">Intermediate</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="border-e border-blue-800 px-4 py-1 ">Django</td>
-                                            <td class="px-4 py-1 text-blue-800">Proficient</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="border-e border-blue-800 px-4 py-1 ">Databases</td>
-                                            <td class="px-4 py-1 text-yellow-600">Advanced</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="border-e border-blue-800 px-4 py-1 ">Docker</td>
-                                            <td class=" px-4 py-1 text-gray-500">Intermediate</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="border-e border-blue-800 px-4 py-1 ">Git</td>
-                                            <td class=" px-4 py-1 text-yellow-600">Advanced</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="border-e border-blue-800 px-4 py-1 ">Shell</td>
-                                            <td class=" px-4 py-1 text-blue-800">Proficient</td>
-                                        </tr>
+                        <h1 class="text-xl uppercase border-b-4 border-gray-400">Professional Skills</h1>
+                        
 
-                                    </tbody>
-                                </table>
-                            </div>
+
+                        <div class="flex">
+                            <table class="table-auto text-sm w-2/4 h-full border-2 border-blue-800">
+                                <thead>
+                                    <tr>
+                                        <th class="border border-blue-800 px-4 pl-5 py-1 w-2/4">Languages</th>
+                                        <th class=" border border-blue-800 px-4 pl-5  py-1">Proficiency</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="border-1 border-blue-800">
+                                    <tr>
+                                        <td class="border-e border-blue-800 px-4 py-1 ">Java</td>
+                                        <td class="px-4 py-1 text-yellow-600">Advanced</td>
+                                    </tr>
+                                    <tr>
+                                        <td class=" border-e border-blue-800 px-4 py-1">Python</td>
+                                        <td class="px-4 py-1 text-blue-800">Proficient</td>
+                                    </tr>
+                                    <tr>
+                                        <td class=" border-e border-blue-800 px-4 py-1">JavaScript</td>
+                                        <td class="px-4 py-1 text-gray-500">Intermediate</td>
+                                    </tr>
+                                    <tr>
+                                        <td class=" border-e border-blue-800 px-4 py-1"> Bash / Batch</td>
+                                        <td class="px-4 py-1 text-blue-800">Proficient</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-e border-blue-800 px-4 py-1">HTML / CSS</td>
+                                        <td class="px-4 py-1 text-yellow-600">Advanced</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-e border-blue-800 px-4 py-1">SQL</td>
+                                        <td class="px-4 py-1 text-gray-500">Intermediate</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <table class="table-auto text-sm w-2/4 ml-3 h-full border-2 border-blue-800">
+                                <thead>
+                                    <tr>
+                                        <th class=" border border-blue-800 pl-2 py-1 w-2/4">Tools</th>
+                                        <th class="border border-blue-800 px-2 py-1">Proficiency</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="border-e border-blue-800 px-4 py-1 ">Maven</td>
+                                        <td class="px-4 py-1 text-gray-500">Intermediate</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-e border-blue-800 px-4 py-1 ">Django</td>
+                                        <td class="px-4 py-1 text-blue-800">Proficient</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-e border-blue-800 px-4 py-1 ">Databases</td>
+                                        <td class="px-4 py-1 text-yellow-600">Advanced</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-e border-blue-800 px-4 py-1 ">Docker</td>
+                                        <td class=" px-4 py-1 text-gray-500">Intermediate</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-e border-blue-800 px-4 py-1 ">Git</td>
+                                        <td class=" px-4 py-1 text-yellow-600">Advanced</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="border-e border-blue-800 px-4 py-1 ">Shell</td>
+                                        <td class=" px-4 py-1 text-blue-800">Proficient</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+
+                        </div>
+                        <div class="flex flex-col min-h-screen">
+                            <button class="bg-blue-400 no-print rounded py-2 font-bold w-full shadow-lg shadow-black/30" onclick="printContent()">Print this CV (Ink Friendly)</button>
+                        </div>
                     </section>
 
                 </div>
+
             </div>
 
         </div>
+
+       
     </main>
+
 </body>
+
+<script>
+    function printContent() {
+        var printWindow = window.open('', '_blank');
+        var styles = Array.from(document.getElementsByTagName('style')).map(style => style.outerHTML).join('');
+        var links = Array.from(document.getElementsByTagName('link')).map(link => link.outerHTML).join('');
+        var noPrintStyle = '<style>@media print {.no-print {display: none;}}</style>';
+        var content = document.body.innerHTML;
+        printWindow.document.write('<html><head>' + styles + links + noPrintStyle + '</head><body>');
+        printWindow.document.write(content);
+        printWindow.document.write('</body></html>');
+        printWindow.document.close();
+        printWindow.print();
+    }
+    </script>
