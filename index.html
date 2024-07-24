@@ -1,7 +1,3 @@
-<!-- EXAMPLE CV 
-https://img.freepik.com/freie-psd/saubere-und-moderne-lebenslauf-oder-lebenslaufvorlage_237398-297.jpg?w=996&t=st=1688998846~exp=1688999446~hmac=0da6a030eec9a51ead50e096de88765ffc3a7c607e21a4c82468ad1549d9423e 
--->
-
 <script src="https://cdn.tailwindcss.com"></script>
 
 <head>
@@ -18,7 +14,7 @@ https://img.freepik.com/freie-psd/saubere-und-moderne-lebenslauf-oder-lebenslauf
 
 <body class="bg-slate-200 h-screen flex justify-center items-center" style="transform: scale(0.5)">
     <!-- DIN A4   -->
-    <main style="min-width: 28.5cm; min-height: 34cm" class="relative bg-white shadow-lg shadow-black/30">
+    <main style="min-width: 28.5cm; min-height: 36.5cm" class="relative bg-white shadow-lg shadow-black/30">
         <!-- Colums -->
         <div class="absolute top-0 left-0 bottom-0 right-0 flex">
             <!-- Left Side -->
@@ -171,12 +167,28 @@ https://img.freepik.com/freie-psd/saubere-und-moderne-lebenslauf-oder-lebenslauf
                                             The software was developed using Python, VBA and Bash/Batch </p>
                                     </div>
                                 </div>
+                                <div class="flex">
+                                    <div class="w-1/3">
+                                        <p>2024 - 2024</p> 4 Weeks
+                                    </div>
+                                    <div class="w-2/3">
+                                        <h1 class="text-md  font-semibold uppercase">Software Developer Intern</h1>
+                                        <h2 class="text-sm font-semibold text-blue-800">Electrum Payments / City of Cape
+                                            Town</h2>
+                                        <p class="text-sm pt-3">
+                                            During my internship at Electrum, I developed Infrastructure as Code (IaC)
+                                            components and enhanced internal tools, leading to successful production
+                                            deployments. This experience deepened my understanding of DevOps, software
+                                            development lifecycles, and cloud infrastructure management, significantly
+                                            improving Electrum's operational efficiency and development workflows. </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
                         <!-- About me -->
                         <h1 class="text-xl uppercase border-b-4 border-gray-400">Professional Skills</h1>
-                        
+
 
 
                         <div class="flex">
@@ -251,8 +263,9 @@ https://img.freepik.com/freie-psd/saubere-und-moderne-lebenslauf-oder-lebenslauf
                             </table>
 
                         </div>
-                        <div class="flex flex-col min-h-screen">
-                            <button class="bg-blue-400 no-print rounded py-2 font-bold w-full shadow-lg shadow-black/30" onclick="printContent()">Print this CV (Ink Friendly)</button>
+                        <div class="flex flex-col min-h-screen px-5">
+                            <button class="bg-blue-400 no-print rounded py-2 font-bold w-full shadow-lg shadow-black/30"
+                                onclick="printContent()">Print this CV (Ink Friendly)</button>
                         </div>
                     </section>
 
@@ -262,7 +275,7 @@ https://img.freepik.com/freie-psd/saubere-und-moderne-lebenslauf-oder-lebenslauf
 
         </div>
 
-       
+
     </main>
 
 </body>
@@ -280,4 +293,4 @@ https://img.freepik.com/freie-psd/saubere-und-moderne-lebenslauf-oder-lebenslauf
         printWindow.document.close();
         printWindow.print();
     }
-    </script>
+</script>
